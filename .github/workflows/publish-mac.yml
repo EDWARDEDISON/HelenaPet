@@ -1,0 +1,42 @@
+name: Upload verified Mac packages
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Successful Mac build run to publish
+        required: true
+        type: string
+      release_tag:
+        description: Existing draft release tag
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Download the previously tested packages
+        uses: actions/download-artifact@v7
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: ${{ inputs.run_id }}
+          pattern: HelenaPet-Mac-*
+          merge-multiple: true
+          path: downloads
+      - name: Verify checksums
+        working-directory: downloads
+        run: |
+          sha256sum -c SHA256-Mac-arm64.txt
+          sha256sum -c SHA256-Mac-x64.txt
+      - name: Upload to the existing draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_TAG: ${{ inputs.release_tag }}
+        run: |
+          gh release upload "$TARGET_TAG" downloads/HelenaPet-Mac-*.zip downloads/SHA256-Mac-*.txt --repo "$GITHUB_REPOSITORY" --clobber
