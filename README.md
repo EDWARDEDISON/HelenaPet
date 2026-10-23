@@ -1,6 +1,6 @@
 # 听见你 · 海伦娜桌宠
 
-把盲仔搬进桌面。一个在 Windows 本地运行的海伦娜桌面宠物，带有换装、表情、部位互动、读书与甜品、视线跟随和随皮肤配色的回声波纹。
+把盲仔搬进桌面。海伦娜桌面宠物提供 Windows 版与独立移植的 Mac 测试版，带有换装、表情、部位互动、读书与甜品、视线跟随和随皮肤配色的回声波纹。
 
 ## 朋友下载：从这里开始
 
@@ -12,7 +12,19 @@
 
 不需要安装 Python、Node.js、Git、豆包或 ChatGPT，也不需要 API Key、登录或付费。AI 只是在有电脑操作能力时协助下载；桌宠本身不依赖 AI。
 
-适用环境：**Windows 10 / 11（建议 64 位）**，需系统可用的 .NET Framework 4.x 与 WPF。当前 EXE 使用 CLR 4，Windows 10/11 通常已具备所需组件；若提示缺少组件，请保留错误内容，再通过 Windows 官方方式修复。暂未提供 macOS、Linux、手机原生版本。
+Windows 版适用环境：**Windows 10 / 11（建议 64 位）**，需系统可用的 .NET Framework 4.x 与 WPF。当前 EXE 使用 CLR 4，Windows 10/11 通常已具备所需组件；若提示缺少组件，请保留错误内容，再通过 Windows 官方方式修复。暂未提供 Linux、手机原生版本。
+
+## Mac 测试版下载
+
+适用 **macOS 13 Ventura 或更新版本**。在苹果菜单 → 关于本机查看芯片型号，选择对应包：
+
+- **[苹果芯片 M 系列：下载 arm64 版](https://github.com/EDWARDEDISON/HelenaPet/releases/download/mac-v0.1.0-beta.1/HelenaPet-Mac-arm64.zip)**
+- **[Intel 芯片：下载 x64 版](https://github.com/EDWARDEDISON/HelenaPet/releases/download/mac-v0.1.0-beta.1/HelenaPet-Mac-x64.zip)**
+- [版本说明、校验文件](https://github.com/EDWARDEDISON/HelenaPet/releases/tag/mac-v0.1.0-beta.1) · [Mac 安装与操作说明](mac/README.md)
+
+完整解压后，将 `HelenaPet.app` 拖入“应用程序”并打开。无需自行安装 Node.js、Python 或 .NET。用菜单栏的小头像打开互动面板、找回桌宠和退出。
+
+Mac 版未取得 Apple Developer ID 签名与公证，首次可能被 Gatekeeper 拦截；请先核对来源，并阅读 [苹果官方说明](https://support.apple.com/zh-cn/102445)。系统提供时可以在“隐私与安全性”中逐个确认“仍要打开”，不要关闭整机安全防护。此版在苹果芯片与 Intel Mac 环境分别完成打包后启动及 321 组渲染自检，仍需真实用户的触控板、多显示器与长期体验反馈。见 [自检记录](docs/Mac版验证.md)。
 
 ## 一句话交给 AI
 
