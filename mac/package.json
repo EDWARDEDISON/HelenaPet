@@ -1,0 +1,19 @@
+{
+  "name": "helena-pet-mac",
+  "productName": "HelenaPet",
+  "version": "0.1.0-beta.1",
+  "description": "听见你 · 海伦娜桌宠 macOS 测试版",
+  "author": "EDWARDEDISON",
+  "private": true,
+  "main": "app/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/core.test.mjs",
+    "smoke": "electron . --smoke-test",
+    "package:mac": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "45.0.0"
+  }
+}

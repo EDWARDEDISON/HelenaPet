@@ -1,0 +1,67 @@
+name: Mac desktop pet
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'mac/**'
+      - '.github/workflows/mac-build.yml'
+permissions:
+  contents: read
+jobs:
+  package:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: macos-15
+            arch: arm64
+          - runner: macos-15-intel
+            arch: x64
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: mac
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Install build tools
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile --ignore-scripts
+          pnpm exec install-electron --no
+      - name: Core behavior checks
+        run: pnpm test
+      - name: Build native Mac bundle
+        env:
+          TARGET_ARCH: ${{ matrix.arch }}
+        run: pnpm package:mac
+      - name: Launch packaged app and check rendered skins
+        env:
+          HELENA_TEST_OUTPUT: ${{ github.workspace }}/mac/smoke-output
+        run: |
+          APP=$(cat "dist/app-${{ matrix.arch }}.txt")
+          "$APP/Contents/MacOS/HelenaPet" --smoke-test
+          cat smoke-output/report.json
+      - name: Create download and checksum
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent "dist/HelenaPet-Mac-${{ matrix.arch }}" "dist/HelenaPet-Mac-${{ matrix.arch }}.zip"
+          cd dist
+          shasum -a 256 "HelenaPet-Mac-${{ matrix.arch }}.zip" > "SHA256-Mac-${{ matrix.arch }}.txt"
+      - name: Upload tested download
+        uses: actions/upload-artifact@v7
+        with:
+          name: HelenaPet-Mac-${{ matrix.arch }}
+          path: |
+            mac/dist/HelenaPet-Mac-${{ matrix.arch }}.zip
+            mac/dist/SHA256-Mac-${{ matrix.arch }}.txt
+      - name: Upload test evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: Mac-smoke-${{ matrix.arch }}
+          path: mac/smoke-output/

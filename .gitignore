@@ -3,3 +3,6 @@
 /qa-failure.txt
 *.bak
 *.new
+/mac/node_modules/
+/mac/dist/
+/mac/smoke-output/
