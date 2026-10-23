@@ -33,7 +33,7 @@ async function start(){core=await import(pathToFileURL(path.join(__dirname,'core
   session.defaultSession.webRequest.onBeforeRequest((d,cb)=>{try{const local=fileURLToPath(d.url);cb({cancel:!permitted.some(p=>path.resolve(local).startsWith(p))});}catch{cb({cancel:!d.url.startsWith('data:')});}});
   const a=screen.getPrimaryDisplay().workArea;
   const pos=bounds(prefs.x??a.x+a.width-440*prefs.scale-40,prefs.y??a.y+a.height-650*prefs.scale-20);
-  pet=new BrowserWindow({...pos,transparent:true,frame:false,hasShadow:false,resizable:false,skipTaskbar:true,show:false,focusable:false,alwaysOnTop:prefs.topmost,backgroundColor:'#00000000',webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true,webSecurity:true,backgroundThrottling:false}});
+  pet=new BrowserWindow({...pos,transparent:true,frame:false,hasShadow:false,resizable:false,skipTaskbar:true,show:false,focusable:false,acceptFirstMouse:true,alwaysOnTop:prefs.topmost,backgroundColor:'#00000000',webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true,webSecurity:true,backgroundThrottling:false}});
   secureWindow(pet);pet.setAlwaysOnTop(prefs.topmost,'floating');if(process.platform==='darwin'){pet.setVisibleOnAllWorkspaces(true,{visibleOnFullScreen:true});app.dock?.hide();}
   pet.webContents.on('did-fail-load',(_e,code,desc)=>{errors.push(`${code}: ${desc}`);});
   pet.loadFile(path.join(__dirname,'index.html'));pet.once('ready-to-show',()=>{if(!smoke)pet.showInactive();});
