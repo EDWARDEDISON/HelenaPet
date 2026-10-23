@@ -1,0 +1,5 @@
+/dist/
+/error.log
+/qa-failure.txt
+*.bak
+*.new

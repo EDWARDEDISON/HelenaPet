@@ -1,0 +1,26 @@
+﻿海伦娜 · 盲女桌宠
+
+1. 先完整解压 ZIP，再打开 HelenaPet 文件夹。
+2. 双击 HelenaPet.exe，或 Start.cmd / 启动盲女.cmd。
+3. 保留 assets、skins 和全部随包配置，不要只移动 EXE。
+
+适用 Windows 10 / 11，使用系统 .NET Framework 4.x / WPF。
+不需要安装 Python、Node.js、Git 或 AI 软件，不需要 API Key。
+请放在桌面、文档等自己有写入权限的位置，不需要管理员权限。
+
+左键轻点：聊天 / 叫醒；左键按住移动：拖动；左键按住不动：摸头。
+鼠标滚轮：调整大小；右键轻点：打开操作栏。
+右键按住约 0.45 / 0.9 / 1.6 秒，松开后跳 1 / 2 / 3 次。
+操作栏里可以换装、换头饰、设置环绕挂件、聊天、调整视线和字号。
+退出或找回桌宠：使用 Windows 托盘图标，必要时展开隐藏图标。
+
+首次打开可能遇到 Windows 安全提示：
+当前程序没有数字签名，提示不能自动证明有病毒或保证安全。
+请先确认来源为本项目仓库 EDWARDEDISON/HelenaPet 的 Releases。
+如果你核对来源且愿意运行，系统提供时可选择“更多信息 → 仍要运行”。
+如果没有这个按钮，不要关闭 Defender / Smart App Control 或修改组织策略；先反馈提示。
+启动失败请保留同目录 error.log。找不到桌宠可在托盘菜单找回；退出后备份并移走 settings.json 可以重置偏好。
+
+仓库：https://github.com/EDWARDEDISON/HelenaPet
+下载：https://github.com/EDWARDEDISON/HelenaPet/releases/latest
+个人同人作品，非游戏官方应用。
