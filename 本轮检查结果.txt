@@ -1,0 +1,204 @@
+海伦娜 · 皮肤专属波纹版
+2026-10-23T19:47:20+08:00
+
+新版已在桌面启动并响应；升级前后个人偏好和互动配置一致。
+右键按住 0.45～不足 0.9 秒跳 1 下；0.9～不足 1.6 秒跳 2 下；满 1.6 秒跳 3 下。角色身下显示当前次数。
+蓄力连跳和回声小跳共用轻跳节奏，每次落地都发出当前皮肤配色的波纹。日常、手动同步换色；芒果临时采用黄绿。
+左键短按聊天、长按摸头、拖动搬家和双击心情轮换保持，右键短按仍打开面板。
+8 种实际蓄力释放时长、1000 组手势、16 套皮肤与最高蛋糕动物帽饰共 121 个姿态，以及完整回归均通过。
+16 套皮肤在蓄力、手动、日常三种跳跃中的实际波纹像素及强度上下限均检查通过；吉尔达森林绿、原皮蓝白及芒果黄绿确认。
+Live2D 仍为分层 PSD/PNG 准备文件，尚未建立 Cubism 模型或接入 Core。
+EXE SHA256: fdd09fc6e1f01376ea7c5b1d7fd73e2857c00e4a50eb0cc0891d249dade10555
+
+qa-results.txt
+PASS render calm
+PASS render listen
+PASS render happy
+PASS render shy
+PASS render echo
+PASS render sleep
+PASS render surprise
+PASS render think
+PASS render angry
+PASS render sad
+PASS render curious
+PASS render expect
+PASS render smug
+PASS render confused
+PASS render drowsy
+PASS render peace
+PASS scale limits
+PASS follow smoothing return
+PASS skin load and path validation
+PASS position recovery
+PASS panel render
+PASS dialogue provenance: 5 supplied-source quotes, 107 original lines
+PASS six consecutive click lines do not repeat
+PASS all interaction triggers route to their own dialogue
+PASS wake on click and rapid-click throttle
+PASS typewriter and immediate full reveal
+PASS font size 20/28 and independence from pet scale
+PASS screen-edge bubble placement and expiration
+PASS malformed dialogue safely falls back
+PASS composed speech-and-pet preview
+PASS alternate skin switch and restore
+PASS both hairstyle skins load, render and switch in both directions
+
+
+action-qa-results.txt
+PASS all ten prop parts load within atlas bounds
+PASS four selectable foods, reading and cane render with both hairstyles
+PASS feeding/page/tap cooldowns, automatic page turns, finish and cancellation
+PASS interactive prop hit regions and head clicks outside cane
+PASS optional hidden hands and chat interruption
+PASS larger spherical hands and maximum hand-size render
+PASS six interaction preview cards
+
+
+head-qa-results.txt
+PASS time-based eye/head/hair response, neutral return, 18/60 fps consistency and bounded targets
+PASS cheek layout morphs over 240 ms with continuous interruption and opaque texture switching
+PASS both hairstyles: continuous 3x3 head poses, invertible deformation and separate eye controls
+PASS 12 expression cards; 6 new expressions render with both skins; 27 emotion/action combinations keep their props; sleeping puts props away
+PASS 24 active expression lines are labelled as fan dialogue
+Head QA elapsed: 1.1 seconds
+
+
+decoration-qa-results.txt
+PASS six accessory atlas regions load; none option returns to undecorated rendering
+PASS both hairstyles render all six accessories; 36 accessory/action/puffed-cheek combinations at directional extremes
+
+
+interaction-qa-results.txt
+PASS four projected hotspots in both hairstyles and three prop actions
+PASS configurable hotspot actions/moods, disabling, action duration, automatic page interval and keep-action switch
+PASS custom dialogue saves/reloads atomically with previous-version backup; official provenance and invalid edits protected (isolated files)
+PASS real Win32 WindowFromPoint excludes pet on transparent pixels and restores pet on opaque pixels; off switch restores rectangular input
+PASS both settings tabs render with large controls
+
+
+pendant-qa-results.txt
+PASS 11 pendants load from preserved-alpha generated atlases
+PASS 66 hairstyle/placement/prop combinations at maximum size and directional extremes
+PASS two native orbit galleries; none option and independent hat decoration retained
+
+
+costume-qa-results.txt
+PASS 14 costumes reuse one continuous bald face base, contour, geometry and mouth anchors
+PASS 14 bound cane textures switch with the selected skin
+PASS 126 costume/prop/expression combinations at directional extremes retain opaque hit regions
+PASS puffed-face action removed from menu, cycling and configurable states
+
+
+hat-fit-qa-results.txt
+PASS 书记官 hat retains 100.0% of opaque source samples
+PASS 暗金蛋糕 hat retains 100.0% of opaque source samples
+PASS 黄金蛋糕 hat retains 100.0% of opaque source samples
+PASS 海西遗风 hat retains 100.0% of opaque source samples
+PASS 不愿醒来的女孩 hat retains 100.0% of opaque source samples
+PASS 甜心蛋糕 hat retains 99.8% of opaque source samples
+PASS 6 costume hats conserve their source artwork; three detailed hats render in three directions at maximum roll and sway
+
+
+face-coverage-qa-results.txt
+PASS dark-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS architect: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS maria: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS seaside: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sweet-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS haixi: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sleeping-girl: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS clerk: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS gilda: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS redeem-star: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS gold-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sea-witch: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS star-girl: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sound-wave: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS eight hair/headwear assemblies share one source image and one head projection; 14 costumes / 126 poses / 149940 face alpha samples
+
+
+live2d-prep-results.txt
+PASS 16 aligned layered PSD/PNG sets exported from existing native layers.
+NOT a Cubism model; no moc3 or formal runtime claimed.
+
+
+psd-format-qa-results.txt
+PASS architect: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS clerk: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS dark-cake: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS gilda: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS gold-cake: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS haixi: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS maria: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS original: independent PSD reader decoded RGBA 440x510 with 5 layer records
+PASS original-no-bangs: independent PSD reader decoded RGBA 440x510 with 5 layer records
+PASS redeem-star: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS sea-witch: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS seaside: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS sleeping-girl: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS sound-wave: independent PSD reader decoded RGBA 440x510 with 7 layer records
+PASS star-girl: independent PSD reader decoded RGBA 440x510 with 6 layer records
+PASS sweet-cake: independent PSD reader decoded RGBA 440x510 with 6 layer records
+
+panel-rest-qa-results.txt
+PASS 200 simulated sleep/wake cycles: idle 180–300s, asleep 1200–1800s, user interaction resets idle, disabled/busy states do not trigger
+PASS native auto-sleep/wake routing, wake dialogue, topic and live mood bubble titles; provenance retained in history
+PASS ten collapsible sections retain all 16 moods and existing action/chat/settings/wardrobe controls; expand/collapse and preference round trip
+PASS 54 cake/animal/size/direction combinations visibly differ from undecorated rendering; animal ears use front placement on all three cake hats
+PASS crown/bow/star default growth and size slider; 176 full-orbit samples at 2.2× remain within canvas
+
+
+mango-qa-results.txt
+PASS 10000 simulated idle episodes; 416 rare transformations at configured 4% chance, one roll per episode, check after 75–120s, 6s total duration and 20min cooldown
+PASS interaction cancels immediately; disabled/asleep/busy eligibility blocks or cancels transformation
+PASS entry starts at exact original rendering; 10 transition/hold/return phases remain visible and unclipped; 0.7s entry + 4.6s mango + 0.7s return
+PASS native fruit rendering uses alpha hit mask, preserves selected skin and rest deadline, restores identical normal rendering, and cancels on engagement or switch
+PASS 192 native preview frames at 24fps: 1s normal → 6s transformation including entry/exit effects → 1s original skin
+
+
+echo-hop-qa-results.txt
+PASS 176 native hop/landing/ring phases across 16 skins: visible, unclipped, projected hotspots retained, exact original rendering restored
+PASS standalone action starts three diminishing hops with landing echo rings; interaction cancels immediately; 108 native preview frames at 24fps
+
+
+echo-expansion-qa-results.txt
+PASS original skin retains blue-white water rings; themed skins use their own palettes through the shared renderer
+PASS opaque three-layer landing waves, high contrast core and halo; intensity slider increases visible wave area from 4230 to 5787 pixels without clipping
+PASS actual charge/manual/daily pixels and low/high strength: architect / 冰青与霜白 / 1236 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: clerk / 酒红与象牙白 / 1235 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: dark-cake / 靛紫与淡紫 / 1253 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: gilda / 森林深绿与浅绿 / 1255 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: gold-cake / 蜂蜜琥珀与奶金 / 1273 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: haixi / 绛红与浅金 / 1274 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: maria / 宝石蓝与香槟金 / 1230 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: original / 雾蓝与白 / 1215 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: original-no-bangs / 雾蓝与白 / 1215 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: redeem-star / 星河青与珍珠白 / 1253 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sea-witch / 深海青与水绿 / 1270 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: seaside / 海玻璃绿与浅碧 / 1258 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sleeping-girl / 蔷薇粉与淡紫 / 1284 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sound-wave / 暖铜棕与奶杏 / 1291 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: star-girl / 星夜蓝与月白 / 1230 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sweet-cake / 糖霜粉与薄荷绿 / 1280 main-color pixels
+PASS all 16 skins show their mapped particle theme; toggle changes actual native rendering; 256 short/full charge and strength samples remain unclipped
+PASS Gilda forest green, unknown-skin safe fallback and mango yellow-green palette
+PASS short press/full 1.6s charge, keyboard hold/release, lost capture and interaction cancellation; effects remain exclusive; settings round trip
+PASS 144 native charge preview frames at 24fps; native minimum-size wave preview
+PASS Gilda forest-wave preview: 144 native frames and landing still
+
+
+daily-hop-qa-results.txt
+PASS 2000 simulated idle episodes: 45–90s spacing, 12–20s defer while busy, disabled mode stays quiet
+PASS native single hop, manual triple hop, all eight busy states, cancellation and persisted switch; automatic hop preserves sleep and mango clocks and selected skin
+PASS 72 native daily single-hop preview frames at 24fps
+
+
+pet-right-charge-qa-results.txt
+PASS 1000 right short/long/cancel sequences; hold threshold 0.45s, no duplicate action or premature charge
+PASS native left short chat, left long pet, drag and double-click mood remain unchanged
+PASS right hold on pet charges without opening UI or chatting; release jumps first; no floor echo before first landing, skin-colored waves after every landing
+PASS 8 actual hold/release durations select 1/2/3 hops at 0.9s/1.6s; every hop renders, final landing waves visible, no extra hop
+PASS 121 charged jump/landing poses across 16 skins and maximum cake animal decorations; measured alpha clearance prevents top clipping
+PASS 144 native frames: charge meter, release jump, landing echo, original idle pose
+

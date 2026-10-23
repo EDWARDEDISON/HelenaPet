@@ -1,0 +1,4 @@
+PASS 14 costumes reuse one continuous bald face base, contour, geometry and mouth anchors
+PASS 14 bound cane textures switch with the selected skin
+PASS 126 costume/prop/expression combinations at directional extremes retain opaque hit regions
+PASS puffed-face action removed from menu, cycling and configurable states

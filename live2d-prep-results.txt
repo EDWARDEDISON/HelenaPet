@@ -1,0 +1,2 @@
+PASS 16 aligned layered PSD/PNG sets exported from existing native layers.
+NOT a Cubism model; no moc3 or formal runtime claimed.

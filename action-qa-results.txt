@@ -1,0 +1,7 @@
+PASS all ten prop parts load within atlas bounds
+PASS four selectable foods, reading and cane render with both hairstyles
+PASS feeding/page/tap cooldowns, automatic page turns, finish and cancellation
+PASS interactive prop hit regions and head clicks outside cane
+PASS optional hidden hands and chat interruption
+PASS larger spherical hands and maximum hand-size render
+PASS six interaction preview cards

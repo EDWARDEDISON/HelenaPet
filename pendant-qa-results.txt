@@ -1,0 +1,3 @@
+PASS 11 pendants load from preserved-alpha generated atlases
+PASS 66 hairstyle/placement/prop combinations at maximum size and directional extremes
+PASS two native orbit galleries; none option and independent hat decoration retained

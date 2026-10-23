@@ -1,0 +1,31 @@
+﻿using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+
+namespace HelenaPet {
+public static partial class Program {
+ static void RunCostumeQA(PetWindow w,bool strict,bool record){
+  var log=new List<string>();string[] ids={"dark-cake","architect","maria","seaside","sweet-cake","haixi","sleeping-girl","clerk","gilda","redeem-star","gold-cake","sea-witch","star-girl","sound-wave"};var ready=ids.Where(id=>File.Exists(Path.Combine(root,"skins",id,"rig.json"))).ToArray();if(strict && ready.Length!=14)throw new Exception("Expected fourteen completed costume sets; got "+ready.Length);
+  var baseFace=Skin.Load(Path.Combine(root,"skins","original-no-bangs")).layers.First(l=>l.name=="face");var canonicalFace=Skin.Load(Path.Combine(root,"skins",ready[0])).layers.First(l=>l.name=="face");byte[] expected=new byte[canonicalFace.Image.PixelWidth*canonicalFace.Image.PixelHeight*4];canonicalFace.Image.CopyPixels(expected,canonicalFace.Image.PixelWidth*4,0);string commonClip=null;int combinations=0;
+  foreach(string id in ready){w.SetSkin(id);var skin=w.Pet.Skin;var face=skin.layers.First(l=>l.name=="face");byte[] actual=new byte[expected.Length];face.Image.CopyPixels(actual,face.Image.PixelWidth*4,0);if(!actual.SequenceEqual(expected) || face.x!=baseFace.x || face.y!=baseFace.y || face.w!=baseFace.w || face.h!=baseFace.h || skin.mouthX!=200 || skin.mouthY!=350)throw new Exception("Face identity changed: "+id);if(commonClip==null)commonClip=face.clip;else if(commonClip!=face.clip)throw new Exception("Face contour mismatch");if(face.ClipShape==null || skin.cane==null || w.Pet.ActionArt.CaneImage!=skin.cane.Image)throw new Exception("Missing shared face clip or bound cane: "+id);
+   w.Pet.Pendant="none";w.Pet.Decoration="none";w.Pet.Motion.Stop();w.Pet.Mood="calm";w.Pet.Time=2.2;w.Pet.X=w.Pet.Y=w.Pet.EyeX=w.Pet.EyeY=0;w.Pet.InvalidateVisual();Capture(w.Pet,Path.Combine(root,"preview","skin-"+id+".png"),440,510);
+   foreach(string kind in new[]{"eat","read","cane"})foreach(string mood in new[]{"happy","sleep","curious"}){w.Pet.Motion.Start(kind,1,0);w.Pet.Mood=mood;w.Pet.Time=2.2;w.Pet.X=mood=="happy"?1:-1;w.Pet.Y=mood=="curious"?1:-1;w.Pet.InvalidateVisual();w.RefreshHitMask();if(!w.Pet.OpaqueAtForQA(w.Pet.PartPoint("glasses"),w))throw new Exception("Opaque glasses not interactive "+id);combinations++;}
+   w.Pet.Mood="listen";w.Pet.Motion.Start("cane",0,0);w.Pet.Time=3.9;w.Pet.X=.2;w.Pet.Y=0;w.Pet.InvalidateVisual();Capture(w.Pet,Path.Combine(root,"preview","cane-"+id+".png"),440,510);
+  }
+  foreach(bool cane in new[]{false,true}){int rows=Math.Max(1,(ready.Length+3)/4),height=82+rows*402;var gallery=new Canvas{Width=1200,Height=height,Background=(Brush)new BrushConverter().ConvertFromString("#EDF2F5")};var title=new TextBlock{Text=cane?"每套皮肤的专属盲杖":"海伦娜的衣橱 · 同一张脸",FontSize=29,FontFamily=new FontFamily("Microsoft YaHei UI"),Foreground=(Brush)new BrushConverter().ConvertFromString("#36556D")};Canvas.SetLeft(title,25);Canvas.SetTop(title,18);gallery.Children.Add(title);
+   for(int i=0;i<ready.Length;i++){var skin=Skin.Load(Path.Combine(root,"skins",ready[i]));var card=new Canvas{Width=274,Height=391,Background=(Brush)new BrushConverter().ConvertFromString("#FFFCF6"),ClipToBounds=true};Canvas.SetLeft(card,25+i%4*289);Canvas.SetTop(card,78+i/4*402);gallery.Children.Add(card);var label=new TextBlock{Text=skin.name,FontFamily=new FontFamily("Microsoft YaHei UI"),FontSize=19,Foreground=(Brush)new BrushConverter().ConvertFromString("#36556D")};Canvas.SetLeft(label,13);Canvas.SetTop(label,12);card.Children.Add(label);var pet=new PetVisual{Skin=skin,Time=cane?3.9:2.2,Mood="calm",Sway=.2,ActionArt=new ActionArt(w.Pet.ActionArt.Atlas){CaneImage=skin.cane.Image,CaneGrip=skin.caneGrip,HandScale=1.4},RoundHands=true};if(cane)pet.Motion.Start("cane",0,0);var view=new Viewbox{Child=pet,Width=274,Height=330};Canvas.SetTop(view,44);card.Children.Add(view);
+   }Capture(gallery,Path.Combine(root,"preview",cane?"十四套专属盲杖.png":"十四套皮肤预览.png"),1200,height);
+  }
+  if(record){string frames=Path.GetFullPath(Path.Combine(root,"..","..","work","costume-preview-frames"));Directory.CreateDirectory(frames);int frame=0;foreach(string id in ready){var skin=Skin.Load(Path.Combine(root,"skins",id));var pet=new PetVisual{Skin=skin,ActionArt=new ActionArt(w.Pet.ActionArt.Atlas){CaneImage=skin.cane.Image,CaneGrip=skin.caneGrip,HandScale=1.4},RoundHands=true,Mood="calm",Sway=.3,Pendants=w.Pet.Pendants,Pendant="shell",PendantSize=.9};pet.Motion.Start("cane",0,0);for(int f=0;f<36;f++){pet.Time=2+f/18.0;pet.StepTracking(Math.Sin(f/35.0*Math.PI*2)*.45,Math.Cos(f/35.0*Math.PI*2)*.25,1.0/18);pet.InvalidateVisual();Capture(pet,Path.Combine(frames,frame.ToString("D4")+".png"),440,510);frame++;}}log.Add("PASS "+frame+" frames from costume/cane native renderer");
+   frames=Path.GetFullPath(Path.Combine(root,"..","..","work","orbit-preview-frames"));Directory.CreateDirectory(frames);var orbit=new PetVisual{Skin=Skin.Load(Path.Combine(root,"skins","original-no-bangs")),Pendants=w.Pet.Pendants,Pendant="shell",PendantSize=1.1,Time=0,Mood="calm",Sway=.3};for(int f=0;f<306;f++){orbit.Time=f/18.0;orbit.InvalidateVisual();Capture(orbit,Path.Combine(frames,f.ToString("D4")+".png"),440,510);}log.Add("PASS 306 frames of full front/back pendant orbit with depth occlusion");
+  }
+  log.Add("PASS "+ready.Length+" costumes reuse one continuous bald face base, contour, geometry and mouth anchors");log.Add("PASS "+ready.Length+" bound cane textures switch with the selected skin");log.Add("PASS "+combinations+" costume/prop/expression combinations at directional extremes retain opaque hit regions");if(PetWindow.States.Contains("pout") || PetWindow.Names.Contains("鼓脸"))throw new Exception("pout still exposed in menu");log.Add("PASS puffed-face action removed from menu, cycling and configurable states");MoodGallery(Skin.Load(Path.Combine(root,"skins","original-no-bangs")),Path.Combine(root,"preview","当前十六种表情.png"),PetWindow.States,PetWindow.Names);File.WriteAllLines(Path.Combine(root,"costume-qa-results.txt"),log);
+ }
+}
+public partial class PetVisual {public bool OpaqueAtForQA(Point point,PetWindow window){return window.OpaqueAt(point);}}
+}

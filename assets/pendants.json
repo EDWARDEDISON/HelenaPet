@@ -1,0 +1,101 @@
+[
+  {
+    "id": "rabbit",
+    "name": "兔宝宝",
+    "atlas": "pendants-1.png",
+    "x": 53,
+    "y": 51,
+    "w": 459,
+    "h": 434
+  },
+  {
+    "id": "purse",
+    "name": "零钱包",
+    "atlas": "pendants-1.png",
+    "x": 512,
+    "y": 59,
+    "w": 498,
+    "h": 407
+  },
+  {
+    "id": "sunglasses",
+    "name": "墨镜",
+    "atlas": "pendants-1.png",
+    "x": 1069,
+    "y": 73,
+    "w": 438,
+    "h": 422
+  },
+  {
+    "id": "cone",
+    "name": "甜筒",
+    "atlas": "pendants-1.png",
+    "x": 80,
+    "y": 521,
+    "w": 391,
+    "h": 428
+  },
+  {
+    "id": "bubbles",
+    "name": "心形泡泡圈",
+    "atlas": "pendants-1.png",
+    "x": 574,
+    "y": 522,
+    "w": 388,
+    "h": 449
+  },
+  {
+    "id": "memory",
+    "name": "逝去的纪念",
+    "atlas": "pendants-1.png",
+    "x": 1067,
+    "y": 529,
+    "w": 420,
+    "h": 458
+  },
+  {
+    "id": "key",
+    "name": "日晷密钥",
+    "atlas": "pendants-2.png",
+    "x": 66,
+    "y": 63,
+    "w": 438,
+    "h": 420
+  },
+  {
+    "id": "light",
+    "name": "“光明”",
+    "atlas": "pendants-2.png",
+    "x": 575,
+    "y": 77,
+    "w": 388,
+    "h": 428
+  },
+  {
+    "id": "basket",
+    "name": "野餐篮",
+    "atlas": "pendants-2.png",
+    "x": 1077,
+    "y": 50,
+    "w": 435,
+    "h": 457
+  },
+  {
+    "id": "record",
+    "name": "黑胶碟",
+    "atlas": "pendants-2.png",
+    "x": 52,
+    "y": 531,
+    "w": 460,
+    "h": 459
+  },
+  {
+    "id": "shell",
+    "name": "海贝泡芙",
+    "atlas": "pendants-2.png",
+    "x": 512,
+    "y": 567,
+    "w": 480,
+    "h": 395
+  }
+]

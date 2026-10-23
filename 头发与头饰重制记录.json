@@ -1,0 +1,244 @@
+{
+  "tool": "built-in imagegen",
+  "integratedJobs": [
+    {
+      "id": "gilda",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: Gilda from The Promised Neverland: dark FOREST GREEN neat center parted straight BOB, NO HAT or ornaments. Fuller softly rounded crown and dense long side sections to cover both ears and temples and old underlying hair completely. Rounded chin-length bob flares gently outward at lower ends, broad lower-side coverage. Preserve straight bob silhouette, do not turn into curls. Large transparent round face opening, no red/magenta strands.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-gilda.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/d65e58d0cf2dae2d99fa657d68812f3e.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-7e50f5c9-acd4-419c-b509-9fa6957b9491.png"
+    },
+    {
+      "id": "maria",
+      "prompt": "Use case: precise-object-edit. EDIT image1 (the current transparent integrated hair and circlet sprite). Image2 GAME and image3 FAN are the authoritative costume references. Correct ONLY the head ornament to match Maria's Axiom game skin: it is NOT a hat, NOT a helmet, NOT a golden dome. REMOVE the broad gold cap/shell and excessive solid gold surface. The top of the head must visibly be HONEY BLONDE HAIR WITH BRAIDED/COMBED STRAND TEXTURE, forming the natural rounded scalp, with just slender gold ribbons/bands hugging that hair surface. A low narrow circlet wraps the forehead, small blue gems and central star pendant, slim intersecting head bands, restrained geometric blue-and-silver side tassels. No tall raised crown, no large roof above hair, no air gap. Keep the existing soft warm outlined chibi style, hair volume and large transparent face opening. Output ONE cohesive integrated hair+circlet sprite, fully transparent background and transparent face opening, no face/skin/ears/glasses/eyes/mouth/body/cane/UI/text, all parts fully visible with padding. Reduce upper ornamental height; the topmost visible dome is unmistakably HAIR, with thin jewel bands on top of it. This is a delicate close-fitting hair ornament, never headwear fabric or armor.",
+      "paths": [
+        "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-cc36c66e-3ef2-4ea5-ae66-2dabc0ad03fe.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/24095a110c8413e35b56fe81d8336351.jpg",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/98de3026d13995c630a5c1d321e69746.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-8cd3f83c-2df9-4e36-96fa-d7b5fe61d6db.png"
+    },
+    {
+      "id": "star-girl",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: The Girl Who Lights the Stars: golden blonde curled bob integrated with NAVY BLUE SOFT BERET. Make beret noticeably TALLER AND PUFFIER than image1: a generous rounded bulbous crown with soft folded fabric and narrow snug lower band. Its crown should occupy at least 25 percent of total sprite height, not a flat pancake. Tiny pale gold stars and small white-blue flower at viewer-right. Preserve large airy volume like game reference.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-star-girl.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/926acbbdce791153971fea5d2814cb9d.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-6fc059fd-114c-41c3-966d-6e237486a50e.png"
+    },
+    {
+      "id": "redeem-star",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: Redemption of the Stars: dusty mauve curled bob integrated with ornate pale ivory celestial bonnet. A substantial tall rounded arch of opalescent blue mint and pink fabric, gold star branches, delicate flowers, star at crown. Bonnet closely hugs hair on both sides with no air gap. Soft but grand full silhouette like game reference.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-redeem-star.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/d62e53fa5aabe2436dad5880097e7d69.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-46e30aeb-2fed-4237-97e8-ec625af53506.png"
+    },
+    {
+      "id": "sea-witch",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: Sea Witch: deep berry purple wavy bob with black lower curled tips. Integrated tall teal shell-fan bonnet with broad radial pleats, thick braided gold band and branching gold coral prongs. Generous shell crown and side hair volume. Bonnet rooted in hair, not floating. Match reference coral-prong count/layout loosely while preserving design.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-sea-witch.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/7a6dbf5fdc40da1f728b304b8332950c.jpg",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/9d695ed637452875ee2147fd51513e2e.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-c51e13fa-5be1-4f4c-bcf8-f8007b1cfdb2.png"
+    },
+    {
+      "id": "seaside",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: Seaside Leisure: warm CHESTNUT BROWN curled bob integrated with white lacy sun bonnet, delicate tiny yellow daisies, mint ribbon, pearl drop sides. Hair must be chestnut brown (not pink/red). Bonnet rounded and domed with real volume above hair, scalloped broad lacy rim snug against hair. Reference is game screenshot, keep modest floral sunbonnet scale but substantial dome.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-seaside.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/adb8d08234bf07377c8aa34395dcaf91.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-f54f05cc-e458-4b71-be3a-d2d7c895f6fd.png"
+    },
+    {
+      "id": "sound-wave",
+      "prompt": "Use case: precise-object-edit. EDIT image1 transparent integrated hair/headwear sprite. Other images are reference for the Sound Wave skin. Preserve the ORANGE GINGER CURLY HAIR shape and height, and use a DARK CHOCOLATE BROWN cable-knit beanie on top. Correct the HEADPHONE PLACEMENT: the two ear cups must be LOWER, down along the sides of the face opening where the ears are, around 73 percent of full sprite height, instead of sitting at the forehead/hat brim. Draw long slim brass side arms connecting the headband over the beanie down to these low ear cups. The headset is worn OVER the brown hat. The left-side microphone boom must curve DOWN AND INWARD, with its black mic capsule near the MOUTH at x46 percent and y86 percent of full sprite, near the lower central transparent face opening, not the forehead! Put the microphone clearly in front of the transparent face opening (it is allowed to cross this opening). Keep radio antenna at viewer-right and brass-black vintage headphone styling. One cohesive hair+hat+headset sprite, not detached pieces. Keep large round transparent face opening. No face, no ears, no skin, no glasses, no eyes, no mouth, no body, no cane, no labels, no UI. True transparent alpha background, whole silhouette visible with padding. The earcup centers are approximately at x19/y73% and x81/y73%; microphone tip around x46/y86%. Brown hat, orange hair.",
+      "paths": [
+        "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-b624f200-240a-4683-ae00-138d7763156b.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/604f123d708291b7e9b28e0815e1d97b.jpg",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/8454e521294f71aadfeef5ad0beda619.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-69c72bb4-e44d-4a6a-b29c-200cd2ce9bd7.png"
+    },
+    {
+      "id": "architect",
+      "prompt": "Use case: precise-object-edit. Create ONE complete integrated HAIR PLUS HEADWEAR sprite for this existing chibi floating-head desktop pet. First image: current app appearance for style and matching round-face proportions ONLY, repair its disconnected/flattened headwear. Other images: costume design references. Render hair and headwear as ONE physically cohesive continuous assembly: hat seated snugly on hair crown, no floating gap. Same soft rounded warm dark outlines and gently shaded 2.5D chibi art. Front view centered, generous padding, entire headwear visible. IMPORTANT output ONLY hair and headwear, NO skin, NO face, NO ears, NO glasses, NO eyes, NO mouth, NO neck/body/cane/UI/text. Where the face would be is a LARGE genuinely TRANSPARENT oval opening, wide round cheeks, open underneath the chin. Hair sides form a thick full frame around it with generous temple/ear coverage. Keep this face opening at approximately x=27%..73% canvas, y=45%..90% canvas; leave area inside empty. Do not render a white face or placeholder. Headwear has substantial tall rounded volume, never flattened, and stays integrated with hair. True transparent alpha background. Single sprite, no atlas, no extra detached pieces. Costume specification: Architect: pale blonde softly curled bob, integrated pale MINT AND WHITE low rounded bonnet/cap with broad scalloped white lace edge, blue faceted gemstones, pearl beads and silver leaf ornaments. This must be one complete head shape: hair and cap are seated snugly together. Cap band follows the scalp evenly, level across the head in frontal view, no independent sideways tilt. Pearl band and large central blue gem above forehead; symmetric cap position, slight natural curl asymmetry only. Moderate domed volume like game and fan references, no giant crown. Keep large transparent round face opening and entire lower chin area empty, no white face outline or pale border inside hair.",
+      "paths": [
+        "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/skin-architect.png",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/e1a91a4aa3d7b479879b7f57e2ac8c7a.jpg",
+        "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/4afa33b265bedf1b3eddcba999ea9c30.jpg"
+      ],
+      "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-6f077d99-316a-491d-be25-146f269ae043.png"
+    }
+  ],
+  "baldBase": {
+    "prompt": "Use case: precise-object-edit. EDIT the provided blank chibi head base. Remove ALL magenta/pink HAIR, including every tuft, side curl, fringe and glow, and replace it with a clean BALD HEAD. Keep the same wide rounded chibi HEAD SHAPE, SIZE, proportion, alignment, warm cream skin shading, two small ears, dark warm outline and rounded lower cheeks/chin exactly. The head is bald: no hair, no eyebrows, no stubble, no cap, no accessories. Continue natural light skin over upper scalp, as a smooth rounded dome. Preserve the existing lower face and ears as faithfully as possible. Keep this a blank face WITHOUT eyes, nose, mouth or glasses, since those are animated separately. One head only, front-facing, transparent alpha background, same landscape canvas/framing as reference with full head silhouette visible and adequate transparent padding. No body, neck, text or shadow/glow outside the head. This is an underlying interchangeable costume base; it must not include any hair at all.",
+    "paths": [
+      "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/skins/original-no-bangs/face-no-bangs.png"
+    ],
+    "path": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-8db2bd25-f49c-4faa-bdc5-29d6ca32f35d.png"
+  },
+  "registration": {
+    "architect": {
+      "sourceSize": [
+        1334,
+        1179
+      ],
+      "alphaBounds": [
+        45,
+        40,
+        1298,
+        1161
+      ],
+      "openingLastRow": 1051,
+      "destination": {
+        "x": -3.647246608140449,
+        "y": 70.26097366320835,
+        "w": 404.5650438946528,
+        "h": 251.71588188347963
+      }
+    },
+    "gilda": {
+      "sourceSize": [
+        1388,
+        1133
+      ],
+      "alphaBounds": [
+        47,
+        58,
+        1374,
+        1133
+      ],
+      "openingLastRow": 1075,
+      "destination": {
+        "x": -3.4589299171062464,
+        "y": 81.1627731725697,
+        "w": 397.4679728711379,
+        "h": 240.82893745290127
+      }
+    },
+    "maria": {
+      "sourceSize": [
+        1374,
+        1145
+      ],
+      "alphaBounds": [
+        25,
+        17,
+        1354,
+        1145
+      ],
+      "openingLastRow": 1027,
+      "destination": {
+        "x": 2.851768246802095,
+        "y": 95.35063957863053,
+        "w": 392.8668171557562,
+        "h": 226.74191121143718
+      }
+    },
+    "redeem-star": {
+      "sourceSize": [
+        1312,
+        1199
+      ],
+      "alphaBounds": [
+        32,
+        0,
+        1292,
+        1188
+      ],
+      "openingLastRow": 1078,
+      "destination": {
+        "x": 0.34920634920635507,
+        "y": 63.888888888888914,
+        "w": 395.68253968253964,
+        "h": 258.1587301587301
+      }
+    },
+    "sea-witch": {
+      "sourceSize": [
+        1374,
+        1145
+      ],
+      "alphaBounds": [
+        0,
+        30,
+        1360,
+        1127
+      ],
+      "openingLastRow": 1086,
+      "destination": {
+        "x": 10.0,
+        "y": 85.55882352941177,
+        "w": 383.9117647058824,
+        "h": 236.38235294117646
+      }
+    },
+    "seaside": {
+      "sourceSize": [
+        1318,
+        1193
+      ],
+      "alphaBounds": [
+        0,
+        29,
+        1294,
+        1193
+      ],
+      "openingLastRow": 1057,
+      "destination": {
+        "x": 10.0,
+        "y": 78.59814528593512,
+        "w": 387.04791344667694,
+        "h": 243.4466769706337
+      }
+    },
+    "sound-wave": {
+      "sourceSize": [
+        1377,
+        1142
+      ],
+      "alphaBounds": [
+        59,
+        32,
+        1345,
+        1122
+      ],
+      "openingLastRow": 1031,
+      "destination": {
+        "x": -7.433903576982885,
+        "y": 84.34992223950235,
+        "w": 406.8895800933126,
+        "h": 237.57387247278382
+      }
+    },
+    "star-girl": {
+      "sourceSize": [
+        1350,
+        1165
+      ],
+      "alphaBounds": [
+        37,
+        16,
+        1322,
+        1165
+      ],
+      "openingLastRow": 1032,
+      "destination": {
+        "x": -0.94163424124514,
+        "y": 83.8171206225681,
+        "w": 399.2217898832685,
+        "h": 238.0544747081712
+      }
+    }
+  },
+  "face": "Single continuous native bald-face material; old neutral-face raster and jaw overlay are absent from all advanced rigs; original two skins and mouth anchors preserved",
+  "currentValidation": "14 skins / 126 poses / 149940 interior face samples, all alpha 255"
+}

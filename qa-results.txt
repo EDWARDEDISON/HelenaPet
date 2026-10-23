@@ -1,0 +1,32 @@
+PASS render calm
+PASS render listen
+PASS render happy
+PASS render shy
+PASS render echo
+PASS render sleep
+PASS render surprise
+PASS render think
+PASS render angry
+PASS render sad
+PASS render curious
+PASS render expect
+PASS render smug
+PASS render confused
+PASS render drowsy
+PASS render peace
+PASS scale limits
+PASS follow smoothing return
+PASS skin load and path validation
+PASS position recovery
+PASS panel render
+PASS dialogue provenance: 5 supplied-source quotes, 107 original lines
+PASS six consecutive click lines do not repeat
+PASS all interaction triggers route to their own dialogue
+PASS wake on click and rapid-click throttle
+PASS typewriter and immediate full reveal
+PASS font size 20/28 and independence from pet scale
+PASS screen-edge bubble placement and expiration
+PASS malformed dialogue safely falls back
+PASS composed speech-and-pet preview
+PASS alternate skin switch and restore
+PASS both hairstyle skins load, render and switch in both directions

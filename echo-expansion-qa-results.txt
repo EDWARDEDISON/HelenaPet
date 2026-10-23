@@ -1,0 +1,23 @@
+PASS original skin retains blue-white water rings; themed skins use their own palettes through the shared renderer
+PASS opaque three-layer landing waves, high contrast core and halo; intensity slider increases visible wave area from 4230 to 5787 pixels without clipping
+PASS actual charge/manual/daily pixels and low/high strength: architect / 冰青与霜白 / 1236 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: clerk / 酒红与象牙白 / 1235 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: dark-cake / 靛紫与淡紫 / 1253 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: gilda / 森林深绿与浅绿 / 1255 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: gold-cake / 蜂蜜琥珀与奶金 / 1273 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: haixi / 绛红与浅金 / 1274 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: maria / 宝石蓝与香槟金 / 1230 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: original / 雾蓝与白 / 1215 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: original-no-bangs / 雾蓝与白 / 1215 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: redeem-star / 星河青与珍珠白 / 1253 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sea-witch / 深海青与水绿 / 1270 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: seaside / 海玻璃绿与浅碧 / 1258 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sleeping-girl / 蔷薇粉与淡紫 / 1284 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sound-wave / 暖铜棕与奶杏 / 1291 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: star-girl / 星夜蓝与月白 / 1230 main-color pixels
+PASS actual charge/manual/daily pixels and low/high strength: sweet-cake / 糖霜粉与薄荷绿 / 1280 main-color pixels
+PASS all 16 skins show their mapped particle theme; toggle changes actual native rendering; 256 short/full charge and strength samples remain unclipped
+PASS Gilda forest green, unknown-skin safe fallback and mango yellow-green palette
+PASS short press/full 1.6s charge, keyboard hold/release, lost capture and interaction cancellation; effects remain exclusive; settings round trip
+PASS 144 native charge preview frames at 24fps; native minimum-size wave preview
+PASS Gilda forest-wave preview: 144 native frames and landing still

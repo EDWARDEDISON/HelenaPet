@@ -1,0 +1,939 @@
+[
+  {
+    "id": "official-01",
+    "event": "official",
+    "text": "写这么多？真是叫人惊喜！我今天一天都不会困了。",
+    "mood": "happy",
+    "kind": "official",
+    "source": "演绎之星互动截图",
+    "reference": "8ef983e6759a4f71d44a930a2b9e3813.jpg"
+  },
+  {
+    "id": "official-02",
+    "event": "official",
+    "text": "不用担心我，书籍和甜点足够照亮我的天空了～",
+    "mood": "happy",
+    "kind": "official",
+    "source": "演绎之星互动截图",
+    "reference": "f452af9c4a6ce5161b775b906f0ac7b6.jpg"
+  },
+  {
+    "id": "official-03",
+    "event": "official",
+    "text": "谢谢你的好意，大家的每一封信我都会认真阅读后好好珍藏。",
+    "mood": "calm",
+    "kind": "official",
+    "source": "演绎之星互动截图",
+    "reference": "fb27b56dbf10275e8b822a63e98235f5.jpg"
+  },
+  {
+    "id": "official-04",
+    "event": "official",
+    "text": "谢谢你的文字，我能通过抚摸这些排列在一起的文字，感受到来自于你的力量。",
+    "mood": "listen",
+    "kind": "official",
+    "source": "演绎之星互动截图",
+    "reference": "4660472656cd4407b62afb4deb450a3e.jpg"
+  },
+  {
+    "id": "official-05",
+    "event": "official",
+    "text": "这个世界永远有阳光，请不要因为习惯了黑暗就为黑暗辩护。",
+    "mood": "calm",
+    "kind": "official",
+    "source": "演绎之星互动截图",
+    "reference": "268b2875dde7b609ecf67cbd3176eb84.jpg"
+  },
+  {
+    "id": "greet-01",
+    "event": "greet",
+    "text": "你好，又见面了。今天有什么想和我分享的吗？",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "日常问候"
+  },
+  {
+    "id": "greet-02",
+    "event": "greet",
+    "text": "我把书页留在这里了。我们可以慢慢聊。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "阅读与陪伴"
+  },
+  {
+    "id": "greet-03",
+    "event": "greet",
+    "text": "今天也想写下一点自己的故事。你呢？",
+    "mood": "think",
+    "kind": "fan",
+    "source": "写作与自主选择"
+  },
+  {
+    "id": "click-01",
+    "event": "click",
+    "text": "嗯？我在听。你可以慢慢说。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "听觉与交流"
+  },
+  {
+    "id": "click-02",
+    "event": "click",
+    "text": "这一下，是在跟我打招呼吗？那我也向你问好。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "日常互动"
+  },
+  {
+    "id": "click-03",
+    "event": "click",
+    "text": "刚想到一个不错的句子。要不要陪我把它记下来？",
+    "mood": "think",
+    "kind": "fan",
+    "source": "写作"
+  },
+  {
+    "id": "click-04",
+    "event": "click",
+    "text": "如果现在能有一小块甜点，今天就更圆满了。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "喜欢甜食"
+  },
+  {
+    "id": "click-05",
+    "event": "click",
+    "text": "你又来找我啦。读书也好，闲聊也好，我都有兴趣。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "阅读与好奇心"
+  },
+  {
+    "id": "click-06",
+    "event": "click",
+    "text": "有些答案，要靠自己试着走近才会知道。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "自主探索"
+  },
+  {
+    "id": "click-07",
+    "event": "click",
+    "text": "今天有什么让你感到新鲜的事？我想听听。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "好奇与倾听"
+  },
+  {
+    "id": "click-08",
+    "event": "click",
+    "text": "我在这里。你忙你的，我也有自己的书要读呢。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "独立与陪伴"
+  },
+  {
+    "id": "pet-01",
+    "event": "pet",
+    "text": "轻一点呀，帽子已经要歪了。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "摸头互动"
+  },
+  {
+    "id": "pet-02",
+    "event": "pet",
+    "text": "嗯……谢谢。我自己扶一扶帽檐就好。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "摸头互动"
+  },
+  {
+    "id": "pet-03",
+    "event": "pet",
+    "text": "被你发现我在发呆了。刚才其实在想一首诗。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "诗歌与摸头互动"
+  },
+  {
+    "id": "pet-04",
+    "event": "pet",
+    "text": "好了好了，再摸下去，我可要把这顶帽子收起来了。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "亲切且有边界的互动"
+  },
+  {
+    "id": "wake-01",
+    "event": "wake",
+    "text": "嗯，我醒着啦。刚才只是在歇一小会儿。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "唤醒互动"
+  },
+  {
+    "id": "wake-02",
+    "event": "wake",
+    "text": "呀，是你。书签还在，我们可以接着读。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "阅读与唤醒"
+  },
+  {
+    "id": "wake-03",
+    "event": "wake",
+    "text": "休息好了。接下来，我想把没写完的那一段写完。",
+    "mood": "think",
+    "kind": "fan",
+    "source": "写作与唤醒"
+  },
+  {
+    "id": "poetry-01",
+    "event": "poetry",
+    "text": "读到喜欢的诗句，我总想再读一遍。你也有这样的句子吗？",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "喜欢诗歌"
+  },
+  {
+    "id": "poetry-02",
+    "event": "poetry",
+    "text": "风吹过的时候，我会想：这一阵风，能写成怎样的句子呢？",
+    "mood": "think",
+    "kind": "fan",
+    "source": "诗歌与感官体验"
+  },
+  {
+    "id": "poetry-03",
+    "event": "poetry",
+    "text": "诗里可以装下很多东西。一阵风，一点暖意，或者一次相遇。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "诗歌"
+  },
+  {
+    "id": "sweet-01",
+    "event": "sweet",
+    "text": "甜点的话，我很愿意认真考虑一下。还有第二块吗？",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "喜欢甜食"
+  },
+  {
+    "id": "sweet-02",
+    "event": "sweet",
+    "text": "读完这一页，再吃一口甜点。这样的安排很不错吧？",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "书籍与甜食"
+  },
+  {
+    "id": "sweet-03",
+    "event": "sweet",
+    "text": "你喜欢哪一种甜点？下次我们可以交换一下推荐。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "喜欢甜食"
+  },
+  {
+    "id": "writing-01",
+    "event": "writing",
+    "text": "写得不够好，也先留下来吧。我想知道下一次会进步多少。",
+    "mood": "think",
+    "kind": "fan",
+    "source": "给父亲的信 · 创作与自我怀疑"
+  },
+  {
+    "id": "writing-02",
+    "event": "writing",
+    "text": "我希望纸上的话，能装下我自己的想法和经历。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "给父亲的信 · 创作主体性"
+  },
+  {
+    "id": "writing-03",
+    "event": "writing",
+    "text": "有时候我也会犹豫。但这一句，我还是想由自己写下去。",
+    "mood": "think",
+    "kind": "fan",
+    "source": "生日信与调查随笔 · 自主选择"
+  },
+  {
+    "id": "company-01",
+    "event": "company",
+    "text": "需要安静一会儿吗？那我们各自读几页书，等你想说话再聊。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "陪伴与边界"
+  },
+  {
+    "id": "company-02",
+    "event": "company",
+    "text": "如果你想讲今天的事，我愿意听。暂时不想讲也没有关系。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "倾听与尊重"
+  },
+  {
+    "id": "company-03",
+    "event": "company",
+    "text": "不必每一步都有人替我们决定。慢慢来，也可以自己选方向。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "调查随笔 · 自主选择"
+  },
+  {
+    "id": "listen-01",
+    "event": "listen",
+    "text": "嗯？我把书先合上了。现在可以认真听你说。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "倾听互动"
+  },
+  {
+    "id": "listen-02",
+    "event": "listen",
+    "text": "声音也有自己的方向。我正在分辨呢。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "听觉与感知"
+  },
+  {
+    "id": "happy-01",
+    "event": "happy",
+    "text": "这件事值得记下来。今天又多了一个高兴的理由。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "开心互动"
+  },
+  {
+    "id": "happy-02",
+    "event": "happy",
+    "text": "听起来真不错！我也忍不住高兴起来了。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "开心互动"
+  },
+  {
+    "id": "echo-01",
+    "event": "echo",
+    "text": "嘘，留一点安静。听，回声正在回来。",
+    "mood": "echo",
+    "kind": "fan",
+    "source": "角色回声主题"
+  },
+  {
+    "id": "echo-02",
+    "event": "echo",
+    "text": "让我听一听，再决定往哪边走。",
+    "mood": "echo",
+    "kind": "fan",
+    "source": "感知与自主行动"
+  },
+  {
+    "id": "sleep-01",
+    "event": "sleep",
+    "text": "这一页先夹好书签。我想休息一会儿，待会儿再读。",
+    "mood": "sleep",
+    "kind": "fan",
+    "source": "休息互动"
+  },
+  {
+    "id": "sleep-02",
+    "event": "sleep",
+    "text": "有点困了。等我休息好，还想听听你的新故事。",
+    "mood": "sleep",
+    "kind": "fan",
+    "source": "休息互动"
+  },
+  {
+    "id": "surprise-01",
+    "event": "surprise",
+    "text": "呀，你什么时候过来的？我刚才读得太认真了。",
+    "mood": "surprise",
+    "kind": "fan",
+    "source": "惊讶互动"
+  },
+  {
+    "id": "surprise-02",
+    "event": "surprise",
+    "text": "咦？还有这样的事。再多告诉我一点吧。",
+    "mood": "surprise",
+    "kind": "fan",
+    "source": "好奇互动"
+  },
+  {
+    "id": "think-01",
+    "event": "think",
+    "text": "让我想一想。我想先把这件事弄明白。",
+    "mood": "think",
+    "kind": "fan",
+    "source": "思考互动"
+  },
+  {
+    "id": "think-02",
+    "event": "think",
+    "text": "这个问题值得再想一会儿。你是怎么理解的？",
+    "mood": "think",
+    "kind": "fan",
+    "source": "求知与交流"
+  },
+  {
+    "id": "drag-01",
+    "event": "drag",
+    "text": "换个地方也不错。我把书带来了。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "搬动互动"
+  },
+  {
+    "id": "drag-02",
+    "event": "drag",
+    "text": "就待在这里吧。要再挪动时，记得慢一点呀。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "搬动互动"
+  },
+  {
+    "id": "skin-01",
+    "event": "skin",
+    "text": "换好啦。帽檐也整理好了，可以出发了。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "换装互动"
+  },
+  {
+    "id": "calm-01",
+    "event": "calm",
+    "text": "我在这里。我们都可以按自己的步调来。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "安静陪伴"
+  },
+  {
+    "id": "calm-02",
+    "event": "calm",
+    "text": "这会儿很安静，正适合再读一页。",
+    "mood": "calm",
+    "kind": "fan",
+    "source": "安静阅读"
+  },
+  {
+    "id": "daily-action-01",
+    "event": "action-eat-sugar",
+    "mood": "happy",
+    "text": "胶牙饧有些黏，慢慢吃就好。要不要也尝一小块？",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-02",
+    "event": "action-eat-sugar",
+    "mood": "happy",
+    "text": "白白的一小块，甜味倒是很认真呢。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-03",
+    "event": "action-eat-cookie",
+    "mood": "happy",
+    "text": "曲奇的香气很不错。先拿一块，剩下的慢慢分享。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-04",
+    "event": "action-eat-cookie",
+    "mood": "happy",
+    "text": "这一口脆脆的。读书的间隙，正好休息一下。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-05",
+    "event": "action-eat-cake",
+    "mood": "happy",
+    "text": "这块小蛋糕的样子很特别。先尝一点奶油吧。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-06",
+    "event": "action-eat-cake",
+    "mood": "happy",
+    "text": "蛋糕也来了？今天值得高兴的事又多了一件。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-07",
+    "event": "action-eat-soup",
+    "mood": "happy",
+    "text": "酥皮下的浓汤还热着呢，让我先尝一小勺。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-08",
+    "event": "action-eat-soup",
+    "mood": "happy",
+    "text": "这份点心要用勺子才方便。嗯，我已经准备好啦。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-09",
+    "event": "feed-sugar",
+    "mood": "happy",
+    "text": "再来一小口。唔，果然有一点黏牙。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-10",
+    "event": "feed-cookie",
+    "mood": "happy",
+    "text": "谢谢，我接好啦。小心别让碎屑落进书页里。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-11",
+    "event": "feed-cake",
+    "mood": "happy",
+    "text": "这一口奶油很香。我们慢慢吃，不用着急。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-12",
+    "event": "feed-soup",
+    "mood": "happy",
+    "text": "轻轻一勺就好。嗯，这个温度刚刚合适。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-13",
+    "event": "action-read",
+    "mood": "think",
+    "text": "把书打开吧。我想沿着这些点，再读一小段。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-14",
+    "event": "action-read",
+    "mood": "calm",
+    "text": "这一页还没读完。你可以陪我坐一会儿。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-15",
+    "event": "page",
+    "mood": "think",
+    "text": "谢谢，翻好这一页，我们接着读。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-16",
+    "event": "page",
+    "mood": "calm",
+    "text": "新的篇章到了。我想知道后面会发生什么。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-17",
+    "event": "action-cane",
+    "mood": "listen",
+    "text": "让我先探一探。听，杖尖碰到这里的声音不一样。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-18",
+    "event": "action-cane",
+    "mood": "listen",
+    "text": "给我一点安静，我想分辨回声的方向。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-19",
+    "event": "tap",
+    "mood": "listen",
+    "text": "听到了吗？回声正在回来。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-20",
+    "event": "tap",
+    "mood": "listen",
+    "text": "再听一次。我想确认刚才的方向。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-21",
+    "event": "finish-eat",
+    "mood": "happy",
+    "text": "谢谢款待。接下来，可以继续读书或者聊聊天。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-22",
+    "event": "finish-eat",
+    "mood": "calm",
+    "text": "吃好了。今天的小小休息，也很令人满足呢。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-23",
+    "event": "finish-read",
+    "mood": "calm",
+    "text": "先把书合上吧。这一段，我还想再想一会儿。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "daily-action-24",
+    "event": "finish-cane",
+    "mood": "calm",
+    "text": "方向已经记住了。我把盲杖先收好。",
+    "kind": "fan",
+    "source": "本轮用户提供的餐点、书籍与盲杖参考；桌宠互动同人创作"
+  },
+  {
+    "id": "expression-angry-1",
+    "event": "angry",
+    "text": "这件事，我可不能当作没发生。请认真听我说，好吗？",
+    "mood": "angry",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-angry-2",
+    "event": "angry",
+    "text": "温柔并不意味着，什么都可以答应。",
+    "mood": "angry",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-angry-3",
+    "event": "angry",
+    "text": "让我先安静一小会儿。我会把想说的话好好整理出来。",
+    "mood": "angry",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-sad-1",
+    "event": "sad",
+    "text": "刚才那句话，让我有一点难过。你愿意再陪我一会儿吗？",
+    "mood": "sad",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-sad-2",
+    "event": "sad",
+    "text": "我已经很努力了……不过，我还想再试一次。",
+    "mood": "sad",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-sad-3",
+    "event": "sad",
+    "text": "可以先不说话，陪我坐一会儿吗？",
+    "mood": "sad",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-curious-1",
+    "event": "curious",
+    "text": "那是什么？你愿意讲给我听吗？",
+    "mood": "curious",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-curious-2",
+    "event": "curious",
+    "text": "听起来很有意思，我想再了解一点。",
+    "mood": "curious",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-curious-3",
+    "event": "curious",
+    "text": "先别告诉我答案，让我自己想一想。",
+    "mood": "curious",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-expect-1",
+    "event": "expect",
+    "text": "听起来像是一个很好的开始。我已经有点期待了。",
+    "mood": "expect",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-expect-2",
+    "event": "expect",
+    "text": "还有下一页吗？我想知道后面的故事。",
+    "mood": "expect",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-expect-3",
+    "event": "expect",
+    "text": "如果有甜点的话，我想认真期待一下。",
+    "mood": "expect",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-smug-1",
+    "event": "smug",
+    "text": "这一次，我自己找到答案了。",
+    "mood": "smug",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-smug-2",
+    "event": "smug",
+    "text": "我就知道，再试一次会有收获的。",
+    "mood": "smug",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-smug-3",
+    "event": "smug",
+    "text": "嗯，这一页读得很顺利。让我小小地高兴一下。",
+    "mood": "smug",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-confused-1",
+    "event": "confused",
+    "text": "等一下，这里似乎有一点说不通……",
+    "mood": "confused",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-confused-2",
+    "event": "confused",
+    "text": "我还没有想明白。你愿意再讲一遍吗？",
+    "mood": "confused",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-confused-3",
+    "event": "confused",
+    "text": "答案也许藏在我漏掉的那一句里。",
+    "mood": "confused",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-drowsy-1",
+    "event": "drowsy",
+    "text": "刚才读到哪里了……让我缓一缓。",
+    "mood": "drowsy",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-drowsy-2",
+    "event": "drowsy",
+    "text": "这段故事很有意思，只是我有一点困了。",
+    "mood": "drowsy",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-drowsy-3",
+    "event": "drowsy",
+    "text": "我想把这一页读完，再好好休息。",
+    "mood": "drowsy",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-peace-1",
+    "event": "peace",
+    "text": "这样安静地待一会儿，也很好。",
+    "mood": "peace",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-peace-2",
+    "event": "peace",
+    "text": "有熟悉的书和你的陪伴，我觉得很安心。",
+    "mood": "peace",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "expression-peace-3",
+    "event": "peace",
+    "text": "不用急，我们可以慢慢来。",
+    "mood": "peace",
+    "kind": "fan",
+    "source": "依据用户提供的生日信、活动互动与角色资料创作；非游戏原文",
+    "reference": ""
+  },
+  {
+    "id": "touch-hat-01",
+    "event": "touch-hat",
+    "text": "帽子已经戴好啦。谢谢你替我扶正。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-hat-02",
+    "event": "touch-hat",
+    "text": "摸到帽沿上的小花了吗？我很喜欢它。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-hat-03",
+    "event": "touch-hat",
+    "text": "这样轻轻地摸一摸，我就知道是你来了。",
+    "mood": "peace",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-glasses-01",
+    "event": "touch-glasses",
+    "text": "嗯？你是在看我的眼镜吗？",
+    "mood": "curious",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-glasses-02",
+    "event": "touch-glasses",
+    "text": "虽然隔着镜片，我也能察觉到你的靠近。",
+    "mood": "listen",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-glasses-03",
+    "event": "touch-glasses",
+    "text": "镜片擦得很干净，今天也要好好出发。",
+    "mood": "smug",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-cheek-01",
+    "event": "touch-cheek",
+    "text": "唔……轻轻戳一下就好。你靠近的时候，我能感觉到。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-cheek-02",
+    "event": "touch-cheek",
+    "text": "轻一点呀，我会有一点点不好意思。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-cheek-03",
+    "event": "touch-cheek",
+    "text": "如果是来分享甜点，另一边脸颊也可以给你戳一下。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-hair-01",
+    "event": "touch-hair",
+    "text": "卷发又翘起来了吗？那就请你帮帮我。",
+    "mood": "peace",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-hair-02",
+    "event": "touch-hair",
+    "text": "听说今天的风很温柔。你的手也是。",
+    "mood": "happy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  },
+  {
+    "id": "touch-hair-03",
+    "event": "touch-hair",
+    "text": "慢慢梳就好，不用着急。",
+    "mood": "shy",
+    "kind": "fan",
+    "source": "基于角色资料的部位互动创作",
+    "reference": ""
+  }
+]

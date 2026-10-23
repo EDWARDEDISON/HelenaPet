@@ -1,0 +1,15 @@
+PASS dark-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS architect: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS maria: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS seaside: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sweet-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS haixi: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sleeping-girl: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS clerk: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS gilda: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS redeem-star: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS gold-cake: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sea-witch: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS star-girl: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS sound-wave: nine directional poses; 10710 interior face samples; minimum alpha 255; single bald base, no old face overlay
+PASS eight hair/headwear assemblies share one source image and one head projection; 14 costumes / 126 poses / 149940 face alpha samples

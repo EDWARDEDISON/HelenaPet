@@ -1,0 +1,5 @@
+PASS 200 simulated sleep/wake cycles: idle 180–300s, asleep 1200–1800s, user interaction resets idle, disabled/busy states do not trigger
+PASS native auto-sleep/wake routing, wake dialogue, topic and live mood bubble titles; provenance retained in history
+PASS ten collapsible sections retain all 16 moods and existing action/chat/settings/wardrobe controls; expand/collapse and preference round trip
+PASS 54 cake/animal/size/direction combinations visibly differ from undecorated rendering; animal ears use front placement on all three cake hats
+PASS crown/bow/star default growth and size slider; 176 full-orbit samples at 2.2× remain within canvas

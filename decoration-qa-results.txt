@@ -1,0 +1,2 @@
+PASS six accessory atlas regions load; none option returns to undecorated rendering
+PASS both hairstyles render all six accessories; 36 accessory/action/puffed-cheek combinations at directional extremes

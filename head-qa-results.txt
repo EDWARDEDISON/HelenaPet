@@ -1,0 +1,6 @@
+PASS time-based eye/head/hair response, neutral return, 18/60 fps consistency and bounded targets
+PASS cheek layout morphs over 240 ms with continuous interruption and opaque texture switching
+PASS both hairstyles: continuous 3x3 head poses, invertible deformation and separate eye controls
+PASS 12 expression cards; 6 new expressions render with both skins; 27 emotion/action combinations keep their props; sleeping puts props away
+PASS 24 active expression lines are labelled as fan dialogue
+Head QA elapsed: 1.1 seconds

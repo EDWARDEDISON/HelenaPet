@@ -1,0 +1,61 @@
+{
+  "prompt": "undefined\n",
+  "reference": "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/calm.png",
+  "generatedPath": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-6d318fef-0735-4520-84f7-2fea6adf5ef7.png",
+  "tool": "built-in imagegen",
+  "asset": "assets/mango-helena-v3.png",
+  "note": "Horizontal plump mango shape from user photo; upright glasses and face. Original generated alpha PNG copied unchanged, native crop only.",
+  "sourceSize": [
+    1498,
+    1050
+  ],
+  "nativeCrop": {
+    "texture": "mango-helena-v3.png",
+    "sx": 83,
+    "sy": 15,
+    "sw": 1362,
+    "sh": 1027
+  },
+  "sha256": "5f345aa22db76b900d5920b780ae6a8cbb4a922e44001d3be8abdbcf5197fd08",
+  "previousVersion": {
+    "prompt": "Use case: precise-object-edit. Edit target: attached mango Helena sprite. Correct ONLY the exaggerated lopsided fruit/face silhouette: make both cheeks comparably full, center the bottom tip beneath the glasses bridge/mouth, remove the deep inward pinched waist on the left lower cheek, and modestly reduce the bulging right cheek. The face and fruit body should read as upright, balanced and softly rounded, with only subtle natural mango asymmetry, not perfectly mirrored. Keep both glasses the same size, their centers at equal height, mouth centered. Preserve the existing blue cloche hat with cream ribbon and flower, green mango leaf and stem, magenta curls, brown circular button-X glasses, yellow/orange color gradient, gentle smile, polished cute hand-painted chibi style, thick clean outlines and detailed shading. Preserve the recognizable mango concept, no body, arms, text or new accessories. Single complete sprite, adequate transparent padding, genuinely transparent background.\n",
+    "reference": "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/calm.png",
+    "generatedPath": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-d3ce2177-17ab-4284-a9ca-f4081949a31e.png",
+    "tool": "built-in imagegen",
+    "asset": "assets/mango-helena-v2.png",
+    "note": "Balanced cheek outline and centered lower silhouette; generated alpha PNG copied unchanged, native crop only.",
+    "sourceSize": [
+      1165,
+      1350
+    ],
+    "nativeCrop": {
+      "texture": "mango-helena-v2.png",
+      "sx": 107,
+      "sy": 50,
+      "sw": 992,
+      "sh": 1278
+    },
+    "sha256": "af525571c51dac98e1f4e2f95c756f7cb36812ced3848d77ac64b51f7a962e79",
+    "previousVersion": {
+      "prompt": "Use case: stylized-concept. Asset type: rare playful transformation sprite for an existing Helena Adams chibi desktop pet. The provided reference is STYLE AND CHARACTER-CUE reference only. Create ONE adorable anthropomorphic MANGO that is unmistakably a playful Helena fan reinterpretation. Fruit is the entire floating character: plump asymmetrical kidney-shaped ripe mango silhouette, golden yellow skin with a soft peach-orange blush on one side, small green leaf and stem. Incorporate Helena's recognizable thin dark brown ROUND SPECTACLES with pink BUTTON lenses and cream X stitches (no human eyes), a tiny calm curved smile, small dusty magenta curly forelock/side curl, and a small dusty blue cloche cap with a cream ribbon/flower. The fruit skin IS the face; do NOT add a separate human face patch. NO animal ears, no cat features, no body, no arms or feet, no clothes below the cap, no cane or other props. Same soft warm rounded outlines, gentle shaded 2.5D chibi illustration and pastel detail as reference. Compact balanced silhouette, glasses sit naturally on the mango, cap perched snugly near its stem. Front view, entire character fully visible, centered with generous padding. Single sprite, not a sheet. True transparent alpha background, no external glow, no backdrop, no text, labels, UI, frame or watermark. Designed to appear for only three seconds as a gentle nickname Easter egg called Mango Helena.",
+      "reference": "C:/Users/25076/Documents/Codex/2026-10-22/codex-q-2d-github-skills-2d/outputs/HelenaPet/preview/calm.png",
+      "generatedPath": "C:\\Users\\25076\\.codex\\generated_images\\01a163d7-a015-7d10-b3dd-b385a3160707\\exec-05c1be59-f7e0-4570-b4fa-156b1f92f8fb.png",
+      "tool": "built-in imagegen",
+      "asset": "assets/mango-helena-v1.png",
+      "note": "Original alpha PNG copied unchanged; native crop and placement only.",
+      "sourceSize": [
+        1165,
+        1350
+      ],
+      "nativeCrop": {
+        "texture": "mango-helena-v1.png",
+        "sx": 135,
+        "sy": 83,
+        "sw": 921,
+        "sh": 1222
+      },
+      "sha256": "c7171bcceae6c0c67149c6a74956e0a7a06216f0d5accc9eee9a494a528bcd57"
+    }
+  },
+  "shapeReference": "C:/Users/25076/Documents/xwechat_files/wxid_blcsbvxmko8b12_ba51/temp/RWTemp/2026-10/dede6bdc9e612572beb16f4e7995f401/9c332ca2d4a1be44866834a57628b49c.jpg"
+}

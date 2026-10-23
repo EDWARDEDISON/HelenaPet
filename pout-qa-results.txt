@@ -1,0 +1,2 @@
+PASS both hairstyle variants load separate puffed-face artwork and retain their neutral textures
+PASS puffed cheeks render with feeding, reading and cane; glasses remain independently rigged

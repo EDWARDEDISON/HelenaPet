@@ -1,0 +1,7 @@
+PASS 书记官 hat retains 100.0% of opaque source samples
+PASS 暗金蛋糕 hat retains 100.0% of opaque source samples
+PASS 黄金蛋糕 hat retains 100.0% of opaque source samples
+PASS 海西遗风 hat retains 100.0% of opaque source samples
+PASS 不愿醒来的女孩 hat retains 100.0% of opaque source samples
+PASS 甜心蛋糕 hat retains 99.8% of opaque source samples
+PASS 6 costume hats conserve their source artwork; three detailed hats render in three directions at maximum roll and sway

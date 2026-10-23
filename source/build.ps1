@@ -1,0 +1,9 @@
+﻿param([string]$OutputName = 'HelenaPet.exe')
+$ErrorActionPreference = 'Stop'
+$projectDir = Split-Path -Parent $PSScriptRoot
+$frameworkDir = Join-Path $env:WINDIR 'Microsoft.NET/Framework64/v4.0.30319'
+$cscPath = Join-Path $frameworkDir 'csc.exe'
+$refs = @('PresentationCore','PresentationFramework','WindowsBase') | ForEach-Object { '/reference:' + (Join-Path $frameworkDir ('WPF/' + $_ + '.dll')) }
+& $cscPath /nologo /target:winexe /optimize+ /utf8output ('/out:' + (Join-Path $projectDir $OutputName)) /reference:System.dll /reference:System.Core.dll /reference:System.Xaml.dll /reference:System.Web.Extensions.dll /reference:System.Windows.Forms.dll /reference:System.Drawing.dll @refs (Join-Path $PSScriptRoot 'App.cs') (Join-Path $PSScriptRoot 'Dialogue.cs') (Join-Path $PSScriptRoot 'Actions.cs') (Join-Path $PSScriptRoot 'HeadMotion.cs') (Join-Path $PSScriptRoot 'Accessories.cs') (Join-Path $PSScriptRoot 'Interaction.cs') (Join-Path $PSScriptRoot 'InteractionQA.cs') (Join-Path $PSScriptRoot 'Pendants.cs') (Join-Path $PSScriptRoot 'Live2DPrep.cs') (Join-Path $PSScriptRoot 'CostumeQA.cs') (Join-Path $PSScriptRoot 'HatFitQA.cs') (Join-Path $PSScriptRoot 'Theme.cs') (Join-Path $PSScriptRoot 'CoverageQA.cs') (Join-Path $PSScriptRoot 'PanelAndRest.cs') (Join-Path $PSScriptRoot 'PanelRestQA.cs') (Join-Path $PSScriptRoot 'Mango.cs') (Join-Path $PSScriptRoot 'MangoQA.cs') (Join-Path $PSScriptRoot 'PanelPreviewQA.cs') (Join-Path $PSScriptRoot 'MangoEffectsQA.cs') (Join-Path $PSScriptRoot 'EchoHop.cs') (Join-Path $PSScriptRoot 'SkinParticles.cs') (Join-Path $PSScriptRoot 'ChargedEcho.cs') (Join-Path $PSScriptRoot 'EchoExpansionQA.cs') (Join-Path $PSScriptRoot 'DailyHop.cs') (Join-Path $PSScriptRoot 'PetRightCharge.cs') (Join-Path $PSScriptRoot 'PetRightChargeQA.cs')
+if ($LASTEXITCODE -ne 0) { throw 'Compilation failed.' }
+

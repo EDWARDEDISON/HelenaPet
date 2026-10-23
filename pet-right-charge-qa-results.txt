@@ -1,0 +1,6 @@
+PASS 1000 right short/long/cancel sequences; hold threshold 0.45s, no duplicate action or premature charge
+PASS native left short chat, left long pet, drag and double-click mood remain unchanged
+PASS right hold on pet charges without opening UI or chatting; release jumps first; no floor echo before first landing, skin-colored waves after every landing
+PASS 8 actual hold/release durations select 1/2/3 hops at 0.9s/1.6s; every hop renders, final landing waves visible, no extra hop
+PASS 121 charged jump/landing poses across 16 skins and maximum cake animal decorations; measured alpha clearance prevents top clipping
+PASS 144 native frames: charge meter, release jump, landing echo, original idle pose

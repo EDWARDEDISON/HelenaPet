@@ -1,0 +1,72 @@
+{
+  "id": "helena-original",
+  "name": "盲女 · 原皮 · 有刘海",
+  "atlas": "atlas.png",
+  "mouthX": 200,
+  "mouthY": 350,
+  "cheekY": 334,
+  "layers": [
+    {
+      "name": "hair",
+      "sx": 5,
+      "sy": 90,
+      "sw": 625,
+      "sh": 530,
+      "x": 35,
+      "y": 126,
+      "w": 330,
+      "h": 280,
+      "depth": 0.35
+    },
+    {
+      "name": "face",
+      "sx": 636,
+      "sy": 102,
+      "sw": 610,
+      "sh": 506,
+      "x": 39,
+      "y": 129,
+      "w": 322,
+      "h": 267,
+      "depth": 0.65
+    },
+    {
+      "name": "glasses",
+      "sx": 671,
+      "sy": 852,
+      "sw": 556,
+      "sh": 247,
+      "x": 77,
+      "y": 236,
+      "w": 246,
+      "h": 109,
+      "depth": 1.0
+    },
+    {
+      "name": "hat",
+      "sx": 14,
+      "sy": 733,
+      "sw": 653,
+      "sh": 397,
+      "x": 22,
+      "y": 40,
+      "w": 356,
+      "h": 216,
+      "depth": 0.8
+    }
+  ],
+  "expressiveEyes": true,
+  "poutFace": {
+    "name": "face",
+    "texture": "face-pout-v2.png",
+    "sx": 3,
+    "sy": 0,
+    "sw": 1372,
+    "sh": 1108,
+    "x": 7,
+    "y": 129,
+    "w": 386,
+    "h": 278,
+    "depth": 0.65
+  }
+}

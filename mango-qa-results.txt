@@ -1,0 +1,5 @@
+PASS 10000 simulated idle episodes; 416 rare transformations at configured 4% chance, one roll per episode, check after 75–120s, 6s total duration and 20min cooldown
+PASS interaction cancels immediately; disabled/asleep/busy eligibility blocks or cancels transformation
+PASS entry starts at exact original rendering; 10 transition/hold/return phases remain visible and unclipped; 0.7s entry + 4.6s mango + 0.7s return
+PASS native fruit rendering uses alpha hit mask, preserves selected skin and rest deadline, restores identical normal rendering, and cancels on engagement or switch
+PASS 192 native preview frames at 24fps: 1s normal → 6s transformation including entry/exit effects → 1s original skin

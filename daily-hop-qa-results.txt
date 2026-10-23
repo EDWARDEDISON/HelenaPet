@@ -1,0 +1,3 @@
+PASS 2000 simulated idle episodes: 45–90s spacing, 12–20s defer while busy, disabled mode stays quiet
+PASS native single hop, manual triple hop, all eight busy states, cancellation and persisted switch; automatic hop preserves sleep and mango clocks and selected skin
+PASS 72 native daily single-hop preview frames at 24fps

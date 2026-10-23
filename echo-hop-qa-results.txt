@@ -1,0 +1,2 @@
+PASS 176 native hop/landing/ring phases across 16 skins: visible, unclipped, projected hotspots retained, exact original rendering restored
+PASS standalone action starts three diminishing hops with landing echo rings; interaction cancels immediately; 108 native preview frames at 24fps

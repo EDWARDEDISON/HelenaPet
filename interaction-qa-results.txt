@@ -1,0 +1,5 @@
+PASS four projected hotspots in both hairstyles and three prop actions
+PASS configurable hotspot actions/moods, disabling, action duration, automatic page interval and keep-action switch
+PASS custom dialogue saves/reloads atomically with previous-version backup; official provenance and invalid edits protected (isolated files)
+PASS real Win32 WindowFromPoint excludes pet on transparent pixels and restores pet on opaque pixels; off switch restores rectangular input
+PASS both settings tabs render with large controls
