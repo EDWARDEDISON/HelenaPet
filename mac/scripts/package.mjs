@@ -1,4 +1,4 @@
-import packager from '@electron/packager';
+import {packager} from '@electron/packager';
 import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath}from'node:url';import {execFileSync}from'node:child_process';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),repo=path.dirname(root),dist=path.join(root,'dist');
 const arch=process.env.TARGET_ARCH||process.arch;
