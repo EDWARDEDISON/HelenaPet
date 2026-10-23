@@ -19,6 +19,10 @@ execFileSync('codesign',['--verify','--deep','--strict',appPath],{stdio:'inherit
 const bundle=path.join(dist,`HelenaPet-Mac-${arch}`);await fs.mkdir(bundle,{recursive:true});
 execFileSync('ditto',[appPath,path.join(bundle,'HelenaPet.app')]);
 await fs.copyFile(path.join(root,'README.md'),path.join(bundle,'开始使用.md'));
+for(const name of ['LICENSE','LICENSES.chromium.html']){
+  const source=path.join(root,'node_modules/electron/dist',name);
+  try{await fs.copyFile(source,path.join(bundle,name==='LICENSE'?'Electron-LICENSE.txt':name));}catch(e){if(e.code!=='ENOENT')throw e;}
+}
 const executable=path.join(bundle,'HelenaPet.app/Contents/MacOS/HelenaPet');
 execFileSync('file',[executable],{stdio:'inherit'});
 console.log('MAC_APP='+path.join(bundle,'HelenaPet.app'));
